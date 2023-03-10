@@ -103,7 +103,7 @@ def conversion_power_unit(x):  # 将用户输入的充电功率转换成以mW为
             break
     else:
         return "输入错误"
-    # 检查切割后的字符串是否为浮点数
+    # 检查切割后的字符串是否为浮点数 
     try:
         value = float(value_str)
     except ValueError:
